@@ -1,0 +1,20 @@
+{
+    "name": "mohsentm/laravel-db-enum",
+    "description": "laravel-db-enum is a trait for laravel models. use this trait on modules for getting the table fileds enum values",
+    "keywords": ["db","enum","table","laravel","lumen","database"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Mohsen Hosseini",
+            "email": "Hosseini.m1370@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mohsentm\\": "src/"
+        }
+    },
+}
