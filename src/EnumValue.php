@@ -6,8 +6,8 @@ namespace Mohsentm;
  * Date: 11/12/18
  * Time: 13:11
  */
-use DB;
-use Cache;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Cache;
 
 trait EnumValue
 {
