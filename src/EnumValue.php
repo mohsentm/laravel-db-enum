@@ -37,8 +37,7 @@ trait EnumValue
             return null;
 
         foreach (explode(',', $matches[1]) as $value) {
-            $v = trim($value, "'");
-            $enum = array_add($enum, $v, $v);
+            $enum[] = trim($value, "'");
         }
         return $enum;
     }
