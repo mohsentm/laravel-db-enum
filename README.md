@@ -34,7 +34,7 @@ class TestModal extends Model
 }
 
 ```
-the use __`getEnumValues()`__ function to get enum values
+then use __`getEnumValues()`__ function to get enum values
 
 ```php
 namespace App\Http\Controllers;
