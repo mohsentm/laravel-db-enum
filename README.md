@@ -18,7 +18,7 @@ or run in terminal:
 `composer require mohsentm/laravel-db-enum`
 
 ## Usage
-use this trait `use Mohsentm\EnumValue;` on the model.<br>
+use this trait `use Mohsentm\EnumValue;` your the model.<br>
 
 ```php
 namespace App;
